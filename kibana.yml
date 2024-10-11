@@ -1,4 +1,4 @@
-xpack.encryptedSavedObjects.encryptionKey: "thirty-two-or-more-random-characters"
+xpack.encryptedSavedObjects.encryptionKey: "${ENCRYPTION_KEY}"
 server.host: "0.0.0.0"
 telemetry.enabled: "true"
 xpack.fleet.packages:
@@ -14,5 +14,5 @@ xpack.fleet.agentPolicies:
       - name: fleet_server-1
         package:
           name: fleet_server
-
+xpack.reporting.roles.enabled: "false"
 
